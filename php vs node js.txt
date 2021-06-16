@@ -1,0 +1,24 @@
+PHP and Node.js are highly recommended 
+backend technologies 
+for the web. 
+While PHP has been long considered ideal for server-side scripting, 
+Node.js perfectly meets the development needs of modern web applications. 
+So what are the individual features of PHP and Node.js? 
+What are their pros and cons? 
+Which technology to choose and when?
+
+
+PHP is older between the two, so it naturally has a larger community and major projects in its kitty.
+PHP is among the most reliable server-side scripting languages in the employ of giants like Facebook, Wikipedia, and Tumblr. 
+it has several built-in functions and libraries that make building e-commerce and CMS websites super easy. 
+
+
+
+
+Node.js has quickly established its dominance in key web-application categories. 
+Used by LinkedIn, Netflix, Medium, and other big players, 
+its popular asynchronous architecture gives it the efficiency and speed crucial for the handling of queries. 
+
+
+While PHP is a scripting language and 
+Node.js is a runtime environment.
