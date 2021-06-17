@@ -4,3 +4,9 @@
 4) front end validation
 5) back end validation
 6) Document & image upload
+7) Third party APIs, google, facebook, ebay
+8) Content management system, wordpress, joomla, drupal, magento
+9) Excel import , export
+10) CRUD
+11) Restful api
+12) json
