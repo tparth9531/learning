@@ -1,2 +1,6 @@
 1) React JS
 2) Login and Registration
+3) login and reg in core php
+4) front end validation
+5) back end validation
+6) Document & image upload

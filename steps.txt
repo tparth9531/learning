@@ -1,0 +1,14 @@
+1) codeigniter download
+2) basic setup
+
+autoload.php => libraries = form_validation, helper
+
+config.php => base_url , remove index.php
+
+database.php => hostname= localhost, username=root, password=blank , database name = any name
+
+3) check codeigniter run
+
+4) database create
+
+5) bootstrap use for design
