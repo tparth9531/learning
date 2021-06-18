@@ -1,24 +1,25 @@
 1) Svaapta :
 	Follow best practices in Software Engineering.
 
+	Experience in Requirement gathering/analysis, plan & designing, coding, testing, deploying, maintenance.
 
-	Experience in Requirement gathering/analysis, designing, coding, testing, maintenance.
+	waterfall => each phase must be completed before the next can begin
+	agile => iterative process, constantly re-evaluating their priorities, Sprints are short work periods, maybe 2 weeks, where the team tries to knock out high-priority tasks and release a workable product 
 
+	plan the phases
+	track your progress
+	distribute resources
 
-	Coding front end of websites in HTML, CSS, JavaScript, jQuery, AJAX as required.
+	Project Manager => project management, gantt chart, project dashboard, task management, planning tools, project management tools, work break down structure, critical path method, pert chart, project proposal, budget, 
 
 	Core PHP,
-
+	Coding front end of websites in HTML, CSS, JavaScript, jQuery, AJAX as required
 	Knowledge of MySQL database.
 
-
-	 Word Press, Magento, Joomla, Drupal
+	Word Press, Magento, Joomla, Drupal
+==========================================================================================================================
 
 2) Webybutter: 
-
-	The ideal candidate is a highly resourceful and innovative developer with extensive experience in the layout, design and coding of websites specifically in PHP format. 
-	You must also possess a strong knowledge of web application development using PHP programming language and MySQL Server databases. 
-
  
 	Responsibilities
 
@@ -33,6 +34,8 @@
 	Knowledge of Laravel and other frameworks is an advantage.
 	Expertise in front-end technologies (HTML, JavaScript, CSS), PHP frameworks, and MySQL databases
 
+==========================================================================================================================
+
 3) Rigel :
 
 	Job Description
@@ -40,17 +43,11 @@
 	We are looking for a PHP Developer 
 	You will be a part of a full-stack creative team that is responsible for all aspects of the ongoing software development from the initial specification, through to developing, testing and launching.
 
-	Responsibilities
-
-	 Write “clean”, well-designed code
-
-	 Produce detailed specifications
+	Responsibilities	
 
 	 Troubleshoot, test and maintain the core product software and databases to ensure strong optimization and functionality
 
-	 Contribute in all phases of the development lifecycle
-
-	 Follow industry best practices
+	 Contribute in all phases of the development lifecycle	
 
 	 Develop and deploy new features to facilitate related procedures and tools if necessary
 
@@ -66,6 +63,10 @@
 
 	 Experience in common third-party APIs (Google, Facebook, Ebay etc)
 
-	 Passion for best design and coding practices and a desire to develop new bold ideas
+===========================================================================================================================
+
+Varddham
+
+	
 
 	

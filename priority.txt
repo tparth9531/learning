@@ -1,0 +1,121 @@
+* Individual Project Handling :
+
+	Core php = CRUD + project
+
+	codeigniter = CRUD + project
+
+	laravel = CRUD + project
+
+	cms = project (wordpress)
+
+===========================================================================================================
+	
+	core php
+
+	oops concepts
+
+	Namespace 
+
+	Exception Handling 
+
+	include & required_once 
+
+===========================================================================================================
+
+	Login & Registration
+
+	Drop down (depends)+ checkbox + radio 
+
+	File upload + multiple
+
+	Multiple fields 
+
+	json
+
+	excel import, export
+
+	pdf print
+
+	client side and server side validation
+
+	Array and string functions
+
+===========================================================================================================
+* Front End Technology
+
+	HTML 
+	css 
+	javascript 
+	jQuery 
+	Ajax 
+	React js 
+	Angular JS
+
+	Admin Panel 
+	user side Template
+
+===========================================================================================================
+
+* Databse : 
+
+	MySQL 
+
+===========================================================================================================
+
+	Third party APIs implementation (e.g. Google, facebook, ebay)
+
+	RESTful API 
+	Web services
+
+===========================================================================================================
+
+	versioning tools 
+
+	git 
+	github
+	bitbucket
+
+	Jira
+
+===========================================================================================================
+
+	security
+
+	website hosting server
+
+	domain name
+
+
+
+===========================================================================================================
+
+	Interview 
+	requirements 
+	interview preparation 
+	Prepare RESUME / CV
+
+===========================================================================================================
+
+
+	Full Stack Development
+
+	MEAN + MERN
+
+	Mongo DB = No SQL
+	Express JS
+	Angular JS
+	Node JS
+	React JS
+
+===========================================================================================================
+
+CMS 
+
+	magento
+	joomla
+	Drupal
+
+===========================================================================================================
+
+Typescript
+

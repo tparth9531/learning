@@ -1,0 +1,62 @@
+* 	File inclusion in PHP, PHP (Include and Require)
+	include_once & required_once	
+	include() and require()
+
+		PHP allows us to create various functions and various elements 
+		that are used multiple times in multiple pages. 
+
+		Scripting the same function in multiple pages is a task of great effort and would consume time. 
+
+		This can be avoided if we follow and use the concept of file inclusion 
+
+		which helps us to include various files including text or codes into a single program which saves the effort of writing the full function or code multiple times. 
+
+		If we want to change any code then instead of editing it in all the files, we just need to edit the source file and all codes will be automatically changed. 
+
+		There are two functions which help us to include files:
+
+		include() function
+		require() function
+
+	The include() function
+
+	This function is used 
+	to copy all the contents of a file called within the function, text wise into a file from which it is called. This happens before the server exceutes the code.
+	
+	
+	include() :
+This function is used to include a file in a PHP page. 
+
+If include() function is not able to find a specified file on location at that time it will throw a warning message however, it will not stop script execution.
+
+require():
+This function is utilized to add a file in a PHP page. 
+
+In case of require() function if it can't locate a specified file at that time it will generate a fatal error and it will stop the content execution.
+
+include_once():
+
+This function is utilized to add a file only once at a time. If the code from a file has been already included then it will not be added again if we use include_once(). If it can't locate a specified file at that time it will generate a warning message but it will not stop the content execution.
+
+require_once():
+In case the code from a php file has been already included then it will not be included again if we use require_once(). It implies require_once() will add the file just once at a time. If it can't locate a specified file, at that time it will generate a fatal error but it will stop the content execution.
+
+Include	Require
+Issues a warning when an error occurs	                Does not issue a warning
+Execution of the script continues when an error occurs	Execution of the script stops when an error occurs.
+
+<?php
+include 'file_name';
+?>
+
+<?php
+include_once 'file_name';
+?>
+
+<?php
+require 'file_name';
+?>
+
+<?php
+require_once 'file_name';
+?>
