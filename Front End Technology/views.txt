@@ -1,6 +1,4 @@
-Perform CRUD Operation :
-
-	Views:
+Views:
 
 	Front End : HTML + CSS + jQuery + Ajax + Bootstrap
 	Bootstrap cdn
@@ -10,7 +8,3 @@ Perform CRUD Operation :
 	Datatables links
 	Bootstrap form
 	Bootstrap Modal
-
-
-Perform Registration and Login 
-	Databse Connection

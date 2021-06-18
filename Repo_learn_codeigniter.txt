@@ -11,4 +11,14 @@ database.php => hostname= localhost, username=root, password=blank , database na
 
 4) database create
 
-5) bootstrap use for design
+5) Views
+
+	Front End : HTML + CSS + jQuery + Ajax + Bootstrap
+
+	Bootstrap cdn
+	Bootstrap Starter Template
+	jQuery cdn
+	Font awesome cdn
+	Datatables links
+	Bootstrap form
+	Bootstrap Modal
