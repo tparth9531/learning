@@ -26,6 +26,10 @@
 
 	include & required_once 
 
+	Array and string functions
+
+	$REQUEST[]
+
 ===========================================================================================================
 
 	Login & Registration
@@ -36,9 +40,7 @@
 
 	Multiple fields 
 
-	encrypted password and confirm password
-
-	$REQUEST[]
+	encrypted password and confirm password	
 
 	json
 
@@ -48,7 +50,7 @@
 
 	client side and server side validation
 
-	Array and string functions
+	
 
 ===========================================================================================================
 * Front End Technology
