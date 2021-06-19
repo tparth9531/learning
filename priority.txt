@@ -12,6 +12,12 @@
 	
 	core php
 
+	types of arrays
+
+	global variables
+
+	magic methods
+
 	oops concepts
 
 	Namespace 
@@ -29,6 +35,10 @@
 	File upload + multiple
 
 	Multiple fields 
+
+	encrypted password and confirm password
+
+	$REQUEST[]
 
 	json
 

@@ -1,0 +1,69 @@
+MySQL, MySQLi, PDO : APIs of PHP that is used to access the MySQL databases and tables
+
+PDO – PHP Data Objects: The main advantage of using PDO is that it supports, and provides a uniform method of access to 11 different databases.
+PDO supported databases are:
+
+CUBRID
+MS SQL Server
+Firebird/Interbase
+IBM
+Informix
+MySQL
+Oracle
+ODBC and DB2
+PostgreSQL
+SQLite
+4D
+
+MySQLi: In case of MySQLi, there is just a one-line code. 
+The user instantiates a MySQLi instance using the username, password, and name of the database.
+
+<?php
+
+// Database credentials
+$mysqli_db = new mysqli('host', 'username', 'password', 'database_name');
+
+?>
+
+The error handling in MySQLi if a bit easier. 
+The mysqli::$error (mysqli_error) returns a string description of the last error.
+
+<?php
+
+if (!$mysqli->query("SET a=1")) {
+	printf("Errormessage: %s\n", $mysqli->error);
+}
+
+?>
+
+
+<?php
+  
+while($row = $my_result->fetch_assoc()) {
+    echo $row['username'] . '\n';
+}
+  
+?>
+
+MySQLi provides a procedural way, much similar to the MySQL. This is the reason why developers coming from a MySQL background prefers using MySQLi.
+
+
+<?php
+
+// Declare an associative array
+$aso_arr = array(
+	"Up"=>"North",
+	"Down"=>"South",
+	"Left"=>"West",
+	"Right"=>"East"
+);
+
+// Use foreach loop to traverse each
+// elements of array and display its
+// key and value
+foreach($aso_arr as $side=>$direc) {
+	echo $side . " => " . $direc . "\n";
+}
+
+?>
+

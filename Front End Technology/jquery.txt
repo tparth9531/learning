@@ -1,0 +1,23 @@
+$(document).ready(function(){
+
+        $('#reg_form').submit(function(e){
+          e.preventDefault();
+
+          $.ajax({
+            type:'POST',
+            data: new FormData(this),
+            dataType:'json',
+            contentType:false,
+            processData:false,
+            success:function(data){
+              alert(data);
+            }
+
+          });
+        });    
+
+
+      });
+
+for Datatables : 
+  $('#show_data_table').DataTable();

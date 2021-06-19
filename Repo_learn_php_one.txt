@@ -1,16 +1,14 @@
 Perform CRUD Operation :
 
-	Views:
-
-	Front End : HTML + CSS + jQuery + Ajax + Bootstrap
-	Bootstrap cdn
-	Bootstrap Starter Template 
-	jQuery cdn
-	Font awesome cdn
-	Datatables links
-	Bootstrap form
-	Bootstrap Modal
+	Design code
+	jquery code
+	ajax code
+	php code for Databse Connection
+	extract($_POST);
+	query for insert into database
+	query for fetch data from database
 
 
-Perform Registration and Login 
-	Databse Connection
+
+Perform Registration and Login :
+	
