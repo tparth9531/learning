@@ -1,0 +1,65 @@
+if (!$this->loggedIn) {
+            $this->session->set_userdata('requested_page', $this->uri->uri_string());
+            admin_redirect('login');
+        }
+
+
+public function unset_session_value() {    
+    $this->session->unset_userdata('apidoc_s_status');    
+    $this->session->unset_userdata('apidoc_serach_data');
+    redirect('admin/apidoc');
+
+  }   
+
+
+  public function below_employee($data) // to_user_id, title, message
+    {
+
+        if(!isset($data['login_user_id']) || $data['login_user_id'] == '') {
+             $output['status'] = false;
+             $output['message'] = 'get login_user_id field are compulsory.';
+             $output['count'] = '';
+             $output['data'] = '';
+             return $output;
+        }
+
+        $below_employee = $this->sam->below_employee($data['login_user_id']);
+        $data = $this->mdl_api->get_employee_details($below_employee);
+        $count = count($data);
+
+
+
+        $output['status'] = 'success';
+        $output['message'] = 'Below Employee get successfully !';
+        $output['count'] = $count;
+        $output['data'] = $data;
+
+        return $output;
+    }
+
+    if(isset($_POST['dealer_s_sap_code']) AND $_POST['dealer_s_sap_code'] != ''){
+            $w .= " AND sap_code = '".$_POST['dealer_s_sap_code']."'";
+            $this->session->set_userdata('dealer_s_sap_code',$_POST['dealer_s_sap_code']); 
+        }   
+
+
+    if(isset($_POST['dealer_s_emp_state_head']) AND $_POST['dealer_s_emp_state_head'] != ''){
+
+            $dealer_id = $this->sam->get_state_head_dealer($_POST['dealer_s_emp_state_head']);
+
+            $w .= " AND id in('" . implode("','",$dealer_id) . "')";            
+
+            $this->session->set_userdata('dealer_s_emp_state_head',$_POST['dealer_s_emp_state_head']);
+        }   
+
+
+if(isset($_POST['dealer_s_zone']) AND $_POST['dealer_s_zone'] != ''){
+            
+            $get_states_id = $this->sam->get_states_id_form_zone($_POST['dealer_s_zone']);
+            if($get_states_id) {
+                $w .= " AND state_id in('" . implode("','",$get_states_id) . "')";      
+            }else{
+                    $w .= " AND state_id in('0')";  
+                }                
+                $this->session->set_userdata('dealer_s_zone',$_POST['dealer_s_zone']);
+        }

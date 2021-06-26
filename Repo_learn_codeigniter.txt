@@ -1,17 +1,55 @@
-1) codeigniter download
-2) basic setup
+download codeigniter 
 
-autoload.php => libraries = form_validation, helper
+=====================================================================================================================
+configuration - basic setup
 
-config.php => base_url , remove index.php
+application => config => autoload.php => libraries => 
+									  => helper =>
 
-database.php => hostname= localhost, username=root, password=blank , database name = any name
+application => config => config.php => 
+				$config['base_url'] =>From URL, localhost/project_name (this copy & paste) to base_url
+				$config['index_page'] = ''; => remove index.php => localhost/project_name/user_guide => Codeigniter URLS => Removing the index.php file =>copy contents =>project_name folder => new file save with .htaccess and paste the contents
+application => config => database.php => hostname= localhost, username=root, password=blank , database name = any name
 
-3) check codeigniter run
+=====================================================================================================================
 
-4) database create
+create database 
 
-5) Views
+	databaseName
+	tablesName
+	fieldsName, type, value
+
+=====================================================================================================================
+check codeigniter run
+
+=====================================================================================================================
+Create Controller 
+
+Create function
+
+Form Validation => To Load form_validation Library before load view and set rules for the fields.
+				=> For this, In function,
+
+					function_name(){ 
+						$this->load->library('form_validation');
+						$this->form_validation->set_rules('first_name', 'First Name', 'required');
+
+					}
+
+					if($this->form_validation->run()==false)
+					{
+						$this->load->view('registration');
+					}else{
+
+					}
+
+					In View->form->after input tag,
+
+					<p class="invalid-feedback"><?php echo form_error(field:'first_name');?> </p>
+
+
+=====================================================================================================================
+Views : Folders assets/css, assets/js, assets/img
 
 	Front End : HTML + CSS + jQuery + Ajax + Bootstrap
 
@@ -22,3 +60,14 @@ database.php => hostname= localhost, username=root, password=blank , database na
 	Datatables links
 	Bootstrap form
 	Bootstrap Modal
+
+=====================================================================================================================
+Model : 
+	
+	Create function
+
+=====================================================================================================================
+
+PHP Tech life : Registration form in codeigniter using bootstrap
+
+=====================================================================================================================

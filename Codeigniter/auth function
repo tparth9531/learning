@@ -1,0 +1,40 @@
+<form class="mt-4" action="<?php echo base_url(); ?>Login/auth" method="post">
+
+<input type="number" class="form-control mb-0" id="exampleInputEmail1"
+								   placeholder="Enter Mobile" name="aMob">
+<input type="password" class="form-control mb-0" name="aPwd" id="exampleInputPassword1"
+								   placeholder="Password">
+
+<button type="submit" class="btn btn-primary float-right">Sign in</button>
+
+
+
+public function auth()
+	{
+		$data['aMob'] = $this->input->post('aMob');
+		$data['aPwd'] = sha1($this->input->post('aPwd'));
+		$data['aActive'] = '1';
+
+		$aLogin = $this->Model->select_where('admin', $data);
+		if (count($aLogin) == 1) {
+			$admin_array = array();
+			foreach ($aLogin as $res) {
+
+				$admin_array = array(
+					"aId" => $res->aId,
+					"aName" => $res->aName,
+					"aMob" => $res->aMob,
+					"aRole" => $res->aRole
+				);
+
+				$this->session->set_userdata($admin_array);
+
+				$this->session->userdata('aMob');
+
+				redirect('dashboard');
+			}
+		} else {
+			$this->session->set_flashdata('error', 'Please Check Mobile Number and Password.');
+			redirect('admin');
+		}
+	}

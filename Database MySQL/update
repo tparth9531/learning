@@ -1,0 +1,20 @@
+UPDATE table_name
+SET column1=value, column2=value2,...
+WHERE some_column=some_value 
+
+
+$id = 
+
+$sql = "SELECT * FROM admin WHERE id=$id";
+
+existing values display in edit_form
+values from edit_form
+
+$id = 
+$first_name =
+$last_name =
+$mobile =
+$email =
+$password =
+
+$sql ="UPDATE admin SET first_name = $first_name, last_name= $last_name, mobile =$mobile, email= $email, password=$password WHERE id = $id";
