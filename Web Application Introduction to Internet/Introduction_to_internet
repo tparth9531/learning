@@ -1,0 +1,32 @@
+Sarkar study waves education
+
+Easy Engineering classes
+
+Naresh i technologies
+
+
+Internet is a collection of computers and other peripherals 
+
+www = collection of software and corresponding protocols that are used to  access a resource over a network 
+
+communication protocols =rules  specifying formats of the messages   , exachange among the nodes 
+
+syntax = structure of data and control messages 
+
+Intranet = within a organisation
+
+HTTP =  request response between  client & server , application layer protocol , desig for hypermedia 
+
+www= improve the quality of web 
+
+establish connection 
+
+https= secure encypted
+
+so in this video we are going to look at the basics of web applications or how the web applications work first of all let us understand what's called a web application a web application is a piece of software which can be accessed from a browser and you know what's called a browser a browser is an application that you use for browsing the internet and the examples are your ie or Firefox or Google Chrome or suffer you all know about that technically speaking we can call a web application a web server although there is a difference in the sense that a web server can host multiple applications but for the time being let's call it web application a web server and a web server is actually network application running on some machine listening on a port the browser is actually called a web client or more formally we call that a user isn't and in fact web clients are not only browsers but any application which can speak to a web server like your see URL or telnet they are also our clients or user agents so the web client or the user region communicates with the web server to get its job done and for this
+communication and actually for any communication both the parties need to use the same set of rules or grammar
+which we call protocol in technical terms ah you got what is called a protocol it's simple like when two parties are communicating for example when two people are communicating they need to use the same language and the same set of grammar rules so that they can understand each other similarly in computer science when two applications are communicating they you and they need to use the same set of rules which we call protocol and the browsers can speak some standard protocols like the HTTP protocol the FTP protocol the WebSocket protocol are there are many protocols which the browsers can speak in their standards and each of these protocols are suitable for different kind of tasks for example the FTP protocol is used for transferring files and among all these protocols the HTTP protocol is the merge protocol in the web client and the web server club that means uh most of the times the web
+client and the web servers speak to one another using the HTTP protocol and in fact in this whole tutorial we are going to focus only on HTTP protocol so let's dig somewhat more into the HTTP protocol or to understand HTTP protocol we need to start or let's start with what is called a web resource or a resource as commonly said it is SUSE a document like an HTML document or a PDF document or logician document or an XML file or any kind of document which is hosted by a web server or in other words a web client can access those documents through a web server the source could be either static or dynamic a resource which does not change it's called a static resource that means it's like some static file sitting in the web servers hard disk or sitting somewhere which the web server has got access to and when a request for a resource comes from a web client the web servers passes that as resource to the web client straight in contrast a dynamic resource is generated on the fly in the sense that when a request for a dynamic resource comes from a web client the web server o builds the resource on the flyer for example suppose a web server has a resource which embeds the current time either in a session or some XML document or an HTML page or whatever so when is request for that particular resource comes from a web client the web server gets the current time from the system and push that into a JSON document build suggestion document or an XML document or an HTML document embedding that particular time into it and then it sends back that document to the web client each resource on the web in the world is identified by a unique URL which is actually unique string I should be more clear when we look at an example so this is an example of a whorl which points to a unique resource in the world and this part of the oil is the protocol and this part identify the web server in the world and this is the path
+of the resource in the web server we will talk about URL more in some later video let's go back to HTTP now so HTTP
+protocol is basically request response protocol that means whenever the web plan needs to do some operation on a
+source like reading it or updating it or deleting it or creating a new resource or any kind of operation the web plan first establishes a connection with your web server where the resources are hosted and then they were clients and sell request to it the request contains the details of what the web plant once liked which operation it ones at all while the web server receives a request it responds with a response back to the web client that means it sends is a spawn back to the web client and the content of the response depends on what was requested for example if the client asked to read a resource this server can either put the resource in the response or in from the client then the resource is not available with me and you go to somewhere else for the resource or something like that and then after the response is given to the web client the connection is closed and the web server does not remember  anything about the past connections and who the clients where that means next time if the client sends endless  requests to the server the web server will treat that request as a new request coming from a new web client and because of this nature the HTTP protocol is called a stateless protocol and this one pair of requests and response is called an HTTP transaction so this was a basic overview of how web servers and web clients work and in the next video on once we shall be looking and going deeper on all these
