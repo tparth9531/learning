@@ -1,0 +1,30 @@
+Create Project Folder 
+Open with text editor
+
+Google search : Tailwind css
+
+Get Started Click
+
+Project Folder
+
+Open with VS code
+
+Create index.html
+
+Put link href "Using tailwind via CDN"
+
+References of components
+
+Google search : Tailblocks
+
+Refer all templates 
+
+Select any one 
+
+Click on view code
+
+Click on Copy to clipboard
+
+Copy and paste it to the code
+
+Use images via unsplash 

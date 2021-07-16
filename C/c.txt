@@ -1,0 +1,6 @@
+numpy like python programming libraries written in C.
+MYSQL written in C. 
+Most of the operating system and compilers. 
+Linux , web servers written in c. 
+When performance is important, memory control on developers. 
+Apache , enginex wrriten in C

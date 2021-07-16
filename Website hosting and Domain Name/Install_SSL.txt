@@ -1,0 +1,2 @@
+SSL certificates are what enable websites to move from HTTP to HTTPS
+

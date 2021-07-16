@@ -1,0 +1,15 @@
+What is Domain name?  e.g. xyz.com
+What is Hosting on server?
+How to purchase online?
+You need a server.
+4 types of hosting - 
+	1. Dedicated - Personal
+	2. VPS - virtual Private Hosting, virtually divided into multiple 
+	3. Shared - if any problem occured then affect to all
+	4. Cloud
+
+cPanel
+
+e.g. reseller.com, godaddy
+
+

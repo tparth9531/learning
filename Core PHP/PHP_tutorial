@@ -1,0 +1,91 @@
+Syntax <?php ?>
+
+echo for print
+
+Forms 
+
+Database connection
+
+logic - algorithm - secret 
+
+// single line comments (ctrl+ shift slash)
+
+/* multiline comments */  (ctrl+ shift slash)
+
+variables using $ sign
+
+not case sensitive
+
+echo "<br>";
+
+operators : Arithmetic, Assignment, comparison, increment , decrement, logical
+
+var_dump
+
+Data Types : Array, object, String, int, char , float , double, boolean 
+
+constants : using define('PI', 3.14);
+
+if-else if ,else
+
+Array : $languages = array("c", "c++", "java", "php");
+
+
+<?php 
+    $arrayName = array('one' =>'red' , 'two' =>'blue');
+    $others = array("c","c++","java", "php");
+
+    echo implode(",", $arrayName);
+    echo "<br>";
+    echo json_encode($others);
+    echo "<br>";
+
+    print_r($arrayName);
+    echo "<br>";
+    print_r($others);
+    echo "<br>";
+
+    print_r (implode(",", $arrayName));
+    echo "<br>";
+    print_r(json_encode($others));
+    echo "<br>";
+    echo "<br>";
+
+    echo "Using foreach";
+    echo "<br>";
+    foreach ($arrayName as $key => $color) {
+      // code...
+      print_r ($color);
+      echo "<br>";
+      /*print_r(json_encode($color));
+      echo "<br>";*/
+    }
+
+    echo "Using foreach-2";
+    echo "<br>";
+    foreach ($arrayName as $key => $color){
+      // code...
+      /*print_r ($color);
+      echo "<br>";*/
+      print_r(json_encode($color));
+      echo "<br>";
+    }
+
+    echo "Using foreach-3";
+    echo "<br>";
+    foreach ($arrayName as  $color){
+      // code...
+      print_r ($color);
+      echo "<br>";
+      print_r(json_encode($color));
+      echo "<br>";
+    }
+
+    
+
+    ?>
+
+
+
+
+
