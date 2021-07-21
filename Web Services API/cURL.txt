@@ -1,0 +1,6 @@
+Client URL
+localhost to server connection
+curl_init()
+curl_setopt()
+curl_exec()
+curl_close()

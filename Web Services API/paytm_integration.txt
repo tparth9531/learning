@@ -1,0 +1,58 @@
+Need of : Github code + paytm account 
+
+
+Google search - Paytm gateway
+developer.paytm.com
+business.paytm.com
+Login
+dashboard.paytm.com
+create account
+Setup payment gateway
+Test API details 
+Generate Now click
+Login
+Merchant ID 
+Secret Key
+Testing Documentation
+API Documentation
+Getting started
+Google Search - paytm php api 
+github.com
+code ->download zip 
+paytm kit is main folder 
+lib -> config_paytm.php -> includes -> payment gateway configurations , MID, Secret Key , website , Environment= TEST otherwise for live , Environment = PROD
+Production API Detail
+Activate account 
+
+File -> txn test.php
+Industry type = retail
+Channel id = WEB  (For website otherwise WAP (for mobile)) -> if form submit , it redirect to pgRedirect.php 
+
+In pgRedirect , callback URL, after successful process
+
+Response details , 
+-Currency
+-gatewayname
+-response message
+-bankname
+-paymentmode
+-MID
+-response code
+-Transaction ID
+-Transaction amount 
+-order id 
+-status
+-bank transaction id 
+-transaction date
+-checksumhash
+
+
+checkout.php
+loginsignup.php
+github code 
+paytm account
+developer settings -> API keys
+config.paytm.php => TEST + key + MID + website (if , live then PROD + live data)
+
+
+

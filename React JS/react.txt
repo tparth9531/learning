@@ -1,0 +1,108 @@
+Javascript library
+single page application UI 
+No website reload , No page reload
+jsx - javascript syntax extension javascrpt + HTML 
+Divide in components : Header , Footer, Left side , Main component
+Routing
+For React : Need of Node js and NPM 
+Google : node js download : windows installer 
+Run 
+Open windows power shell 
+For check , type npm
+type npx
+type node 
+node --version 
+npm --version
+
+why we use react
+No page reload 
+
+Google : create react app
+
+npx - javascript + outside og browser
+package manager 
+package execute
+ e.g plumber   hire or only service 
+
+ npm - always install 
+ npx- not install , only once , one time run 
+
+npx create-react-app
+
+google - npx
+
+npm start 
+npm run build 
+npm test
+npm run eject
+
+
+Folder 
+
+Readme.md
+package.json
+public 
+
+
+we can see our app on localhost as well as on your network 
+
+index.html
+
+single page application
+
+ddiv id root 
+
+all development in src
+
+app.js 
+
+index.js  - entry point 
+
+App.js  - component 
+
+
+className - jsx - dynamic javascript insert  = js + HTML
+class - keyword 
+
+{} - javascript variable - 
+
+1) class based components
+2) function based components
+
+
+import App.css - styling  
+
+<> </>
+
+Also include React Bootstrap - css framework 
+
+
+className used instead of class
+for= ?
+
+/ backslash compulsory for closing tags
+
+
+
+To Deploy React App on Cpanel/Server. Please follow the Steps
+
+Step 1) Go to Package.json file and add this Property "homepage":"http://yourdomain.com" and paste your domain within it. Like
+
+enter image description here
+
+Step 2) Now build the App using npm run build
+
+In your project directory it will create a build folder and it will contain all your static files for project. Zip all files and upload on your cpanel directory where your website run.
+
+Step 3) Create an .htaccess file and Place it on root directory. And paste the below code in .htaccess file.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /index.html [L]
+</IfModule>
+

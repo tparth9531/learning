@@ -5,3 +5,61 @@ domain name and hosting server ?
 wordpress hosting ?
 
 domain registration ?
+
+
+Live on server steps : 
+
+login to cpanel > cpanel.tpintech.info
+
+localhost wordpress application folder/ directory
+
+Make zip (Not rar) of all files (not project folder ) includes in project folder , compress only files of folder.
+
+Database backup / Database Export
+
+upload zip file to public_html folder and extract
+
+Create databse by cpanel 
+
+MYSQL Databases > create new databse > 
+Database name = any  tpintech_wp
+
+Create user and get password
+
+Add new user > password generator 
+
+username  = any   tpintechadminwp
+password = any    tpintechadminwp1@8099
+
+Assign mysql username with mysql database 
+set all permissions 
+
+Add user to database
+
+Manage User privileges > make changes 
+
+configure wordpress site with new databse details 
+
+File manager > open wp-config.php (Edit)
+update - name ,user ,password
+save changes and close 
+
+import the databse .sql file to server databse
+
+open database and press import , select file , go 
+
+
+open wp_options table 
+siteurl and home 
+change localhost values to server domain name. 
+
+
+
+
+
+
+
+
+
+
+

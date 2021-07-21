@@ -1,1 +1,51 @@
 Open source CMS
+
+Need of xampp
+wordpress download
+google  - wordpress download
+wordpress.org
+download
+zip
+xampp ->htdocs ->zip ->extract ->Project folder
+Database create ->phpmyAdmin
+localhost/ project folder
+lang eng continue
+lets go
+databse name enter 
+username = root
+password = blank
+host = localhost
+table prefix 
+submit
+run the installation
+info ask 
+title - any
+username -admin
+password - admin
+confirm password
+email id - any
+install
+Not check checkbox
+install wordpress 
+two part divide  = 1- dashbord ,2- website
+dashboard - admin  url
+login
+localhost/projectname/wp-admin.php 
+localhost/projectname/wp-login.php 
+
+
+theme installation
+3 basic free themes 
+1 default theme 
+apperence -> theme -> add new 
+popular - install -preview 
+Active 
+it move to folder 
+
+
+
+
+
+
+
+
