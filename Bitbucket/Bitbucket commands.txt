@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m ""
+git status
+git remote add origin http://...clone
+git push -f origin master
+
+
+
+git clone https://parthpatel9531@bitbucket.org/parth-learning/learn_codeigniter.git

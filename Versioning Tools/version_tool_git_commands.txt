@@ -18,9 +18,9 @@ Basic Commands list :
 2) git add [filename] || -A
 3) git status
 4) git commit -m "Message"
-5) git remote add origin repoName[URL copy & paste]
+5) git remote add origin repoName[URL copy from press code button  & paste]
 6) git push origin master
-7) git clone repoName[URL]
+7) git clone repoName[URL URL copy from press code button]
 8) git pull origin master
 
 

@@ -1,0 +1,11 @@
+go to project 
+press on settings
+scroll down to Github pages 
+source 
+none to main
+save it 
+Then display message like , your site is ready to  published.
+refresh the page 
+
+
+link : press code and get link 
